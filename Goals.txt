@@ -1,0 +1,5 @@
+* Have a selection scene with from which specific scenes can be selected
+** Add a way to return to the main scene
+** Add preview to each selectable scene
+** Remeber which scene was last selected to have it focused on re-launch
+* Make an easy to control no-clip camera with a location reset option

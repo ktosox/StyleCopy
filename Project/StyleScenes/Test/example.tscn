@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bngefr5cjba48"]
+
+[ext_resource type="PackedScene" uid="uid://c1pbth37pynba" path="res://AdminStuff/camera_controller.tscn" id="1_8m0xf"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_3pvgs"]
+
+[node name="Example" type="Node3D"]
+
+[node name="CameraController" parent="." instance=ExtResource("1_8m0xf")]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 2, 2)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+mesh = SubResource("BoxMesh_3pvgs")

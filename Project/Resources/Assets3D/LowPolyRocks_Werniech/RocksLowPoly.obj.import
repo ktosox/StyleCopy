@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbftslby1khju"
+path="res://.godot/imported/RocksLowPoly.obj-88bd0d61585c90c15fddee30ca33f6bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RocksLowPoly.obj-88bd0d61585c90c15fddee30ca33f6bf.mesh"]
+
+source_file="res://Resources/Assets3D/LowPolyRocks_Werniech/RocksLowPoly.obj"
+dest_files=["res://.godot/imported/RocksLowPoly.obj-88bd0d61585c90c15fddee30ca33f6bf.mesh", "res://.godot/imported/RocksLowPoly.obj-88bd0d61585c90c15fddee30ca33f6bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

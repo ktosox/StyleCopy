@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1pbth37pynba"]
+
+[ext_resource type="Script" path="res://AdminStuff/camera_controller.gd" id="1_rbnp6"]
+
+[node name="CameraController" type="Camera3D"]
+current = true
+script = ExtResource("1_rbnp6")
