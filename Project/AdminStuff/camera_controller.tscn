@@ -5,7 +5,3 @@
 [node name="CameraController" type="Camera3D"]
 current = true
 script = ExtResource("1_rbnp6")
-
-[node name="ScreenRef" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 0
