@@ -1,8 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bngefr5cjba48"]
+[gd_scene load_steps=4 format=3 uid="uid://bngefr5cjba48"]
 
 [ext_resource type="PackedScene" uid="uid://c1pbth37pynba" path="res://AdminStuff/camera_controller.tscn" id="1_8m0xf"]
+[ext_resource type="Material" uid="uid://f2yysdxut23w" path="res://Resources/Shaders/flexible_toon_shader.tres" id="2_ucbuu"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_3pvgs"]
+[sub_resource type="SphereMesh" id="SphereMesh_o8jkw"]
 
 [node name="Example" type="Node3D"]
 
@@ -11,4 +12,12 @@ transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 2, 2)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
-mesh = SubResource("BoxMesh_3pvgs")
+mesh = SubResource("SphereMesh_o8jkw")
+surface_material_override/0 = ExtResource("2_ucbuu")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.14471, 0)
+light_color = Color(0.552941, 0.701961, 0.905882, 1)
+light_energy = 2.0
+shadow_enabled = true
+omni_range = 9.0
