@@ -1,10 +1,10 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://f2yysdxut23w"]
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dcfd0bpr54mo7"]
 
-[ext_resource type="Shader" path="res://Resources/Shaders/flexible_toon_shader.gdshader" id="1_xwej3"]
+[ext_resource type="Shader" path="res://Resources/Shaders/flexible_toon_shader.gdshader" id="1_vnn4t"]
 
 [resource]
 render_priority = 0
-shader = ExtResource("1_xwej3")
+shader = ExtResource("1_vnn4t")
 shader_parameter/albedo = Color(0.941176, 0.678431, 0.243137, 1)
 shader_parameter/clamp_diffuse_to_max = false
 shader_parameter/cuts = 3
